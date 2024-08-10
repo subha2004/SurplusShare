@@ -1,0 +1,104 @@
+
+.rhbody {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden; /* Prevents overflow if content exceeds viewport */
+  background-color: #f4f4f4; /* Apply the background color here */
+  display: flex; /* Use flexbox to center the container */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.rhcontainer {
+  height: calc(100vh - 30px); /* Adjust height based on header size */
+  width: 1200px; /* Fixed width for static size */
+  margin: 0 auto; /* Center the container */
+  padding-top: 30px;
+  background-color: transparent; /* Ensure transparent background */
+}
+
+.rhreghead {
+  height: 30px;
+  position: relative; /* Change from absolute */
+  font-weight: bold;
+  font-family: Poppins, sans-serif; /* Ensure fallback */
+  background: radial-gradient(circle farthest-corner at center center, #000000 0%, #000000 30%, #000000 60%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  margin-top: 30px;
+ 
+  text-align: center; /* Center the text */
+}
+
+.rhcards {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px; /* Adjust padding for better spacing */
+  padding-bottom: 30px; /* Adjust padding for better spacing */
+}
+
+.rhcard1, .rhcard2 {
+  width: 500px; /* Fixed width for cards */
+  height: auto; /* Adjust height based on content */
+  font-family: Poppins, sans-serif;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: rgb(225, 225, 225);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.rhcard_hed {
+  background: linear-gradient(to right, #000000, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 32px;
+}
+
+.rhdes, .rhdes2 {
+  text-align: justify;
+  text-indent: 30px;
+  font-family: Salsa, sans-serif;
+  padding: 20px 0;
+  font-size: 21px;
+}
+
+.rhcard1 button, .rhcard2 button {
+  width: 150px;
+  height: 69px;
+  font-size: 26px;
+  background-color: #191919;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 auto 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.rhcard1 button:hover, .rhcard2 button:hover {
+  background-color: #747474;
+}
+
+@media (max-width: 768px) {
+  .rhcontainer {
+    width: 100%; /* Adjust width for smaller screens */
+  }
+
+  .rhcards {
+    flex-direction: column; /* Stack cards vertically on small screens */
+    align-items: center; /* Center align cards */
+  }
+
+  .rhcard1, .rhcard2 {
+    width: 100%; /* Full width for cards on small screens */
+  }
+}

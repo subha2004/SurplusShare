@@ -1,0 +1,32 @@
+.ngo-carousel {
+    text-align: center;
+    padding: 80px;
+   
+    background-color: #F4F4F4;
+    padding-top: 70px;
+  }
+  
+  .ngo-item {
+    padding-left: 10px;
+    margin-left: -20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
+  }
+  
+
+  
+  .ngo-item img {
+    width: 150px; /* Set a specific width */
+    height: 150px; /* Set a specific height to make it square */
+    max-width: 100%; /* Ensure responsiveness */
+    margin-bottom: 10px;
+    
+    background-color: #F4F4F4;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the whole circle area */
+}
+
+
+  
+  

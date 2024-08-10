@@ -1,0 +1,106 @@
+.unique-donation-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f7f9fc;
+}
+
+.unique-info-section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.unique-info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.unique-stars, .unique-pie-chart, .unique-cost-circle {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.unique-info-text {
+    font-size: 1rem;
+    color: #333;
+}
+
+.unique-donation-section {
+    background-color: #e9f0f7;
+    padding: 20px;
+    border-radius: 8px;
+    width: 45%;
+}
+
+.unique-donation-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.unique-donation-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.unique-donation-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0056b3;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.unique-option-amount {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.unique-option-description {
+    font-size: 1rem;
+}
+
+.unique-donation-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.unique-currency {
+    font-size: 1.25rem;
+    margin-right: 5px;
+}
+
+.unique-input-field {
+    width: 60px;
+    padding: 5px;
+    margin-right: 20px;
+    font-size: 1.25rem;
+}
+
+.unique-donation-frequency {
+    display: flex;
+    gap: 10px;
+}
+
+.unique-donate-button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.unique-donate-instructions {
+    font-size: 0.875rem;
+    margin-top: 10px;
+    color: #333;
+}

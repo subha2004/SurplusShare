@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.vrbody {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding-top: 100px;
+  
+  padding-bottom: 100px;
+}
+
+.vrbdy {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vrinfo {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vrinfo h1 {
+  margin: 20px;
+  text-align: center;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  font-size: 40px;
+}
+
+.vrcontainer {
+  width: 60%;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.95;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.vrcontainer h2 {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #555;
+}
+
+.vrcontainer form {
+  width: 100%;
+}
+
+.vrform_data {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.vrinput_box {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.vrinput_box span {
+  font-family: 'Arial', sans-serif;
+  color: #101010;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.vrinput_box input {
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-weight: normal;
+  font-size: 14px;
+  color: #333;
+}
+
+.vrinput_box input::placeholder {
+  font-size: 14px;
+  color: #949494;
+}
+
+.vrinput_box input:focus {
+  outline: none;
+  border-color: #333;
+  box-shadow: 0 0 5px rgba(51, 51, 51, 0.7);
+}
+
+.button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button input {
+  height: 45px;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 5px;
+  background-color: #000000;
+  border: none;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.button input:hover {
+  background-color: #000000;
+  box-shadow: 0 0 6px #000000;
+}
+
+.vr-footer {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  color: #777;
+  margin-top: 15px;
+}
+
+  
+
+
+.volunteer-reg-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.volunteer-reg-popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.volunteer-reg-popup-content h3 {
+  margin-top: 0;
+}
+
+.volunteer-reg-popup-content button {
+  margin-top: 10px;
+}

@@ -1,0 +1,83 @@
+
+.pledge-container {
+    text-align: center;
+    padding: 70px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    height: 460px;
+    margin-top: -250px;
+    margin-right: 200px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 600px;  
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+   
+
+}
+
+.pledge-button {
+    padding: 10px 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    flex: 1;
+    margin: 0 10px;
+    font-size: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+.pledge-button.selected {
+    background-color: #757575;
+    color: white;
+    border-color: #6a6a6a;
+}
+
+.custom-amount-input {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 80px;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.pledge-submit {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4c4c4c;
+    color: white;
+    cursor: pointer;
+}
+.foddbody{
+ background-image: url('https://img.freepik.com/premium-vector/donate-vector-circular-illustration-banner-line-style_104589-2977.jpg');
+background-repeat: no-repeat;
+background-size: 830px;
+background-attachment: fixed;
+background-position: left;
+min-height: 100vh; /* Ensures the container covers the viewport height */
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #F4F4F4;
+
+
+   
+}
+
+.pledge-button:hover {
+    background-color: #9f9f9f; /* Light grey background on hover */
+    border-color: #ccc; /* Optional: Change border color on hover */
+}
+
+

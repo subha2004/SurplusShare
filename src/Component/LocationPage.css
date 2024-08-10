@@ -1,0 +1,58 @@
+.location-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .district-select {
+    padding: 10px 15px;
+    font-size: 1.7em;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 1px;
+    background-color: #f9f9f9;
+    color: #333;
+    outline: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .district-select:hover {
+    border-color: #000000; /* Green on hover */
+    background-color: #ffffff;
+  }
+  
+  .district-select:focus {
+    border-color: #000000; /* Green when focused */
+    box-shadow: 0 0 5px rgba(5, 5, 5, 0.3);
+  }
+  
+  .district-select option {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 10px;
+  }
+  
+  /* Optionally add media query for responsive adjustments */
+  @media (max-width: 600px) {
+    .district-select {
+      width: 100%;
+    }
+  }
+  
+  .map-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  .locbody{
+    background-color: #f4f4f4;
+    padding-bottom: 50px;
+  }
+  

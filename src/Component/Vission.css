@@ -1,0 +1,99 @@
+
+.vision-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.vision-body {
+  padding: 20px;
+}
+
+.vision-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 10px;
+  padding: 30px;
+  width: 90%;
+  margin-bottom: 10px;
+  margin-left: 0;
+  background-color: rgb(229, 229, 229);
+  opacity: 0.8;
+  position: relative; /* To allow movement within the parent */
+  animation: slideInFromLeft 5s ease forwards; /* Animate from left to center, then stop */
+}
+
+.vision-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.vision-text {
+  flex: 1;
+  margin-right: 20px;
+  
+}
+
+.vision-text h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #252525;
+}
+
+.vision-text p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: #252525;
+}
+
+.vision-image {
+  margin-right: 25px;
+}
+
+.vision-image img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.vbody {
+  padding-top: 30px;
+  padding: 40px;
+
+  width: 100%;
+  height: 100%;
+  background-color: #F4F4F4;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns content to the left */
+}
+
+@media (max-width: 768px) {
+  .vision-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .vision-image {
+    order: 0;
+    margin-bottom: 20px;
+  }
+
+  .vision-text {
+    margin-left: 0;
+  }
+}
+
+/* Keyframes for sliding in from the left */
+@keyframes slideInFromLeft {
+  0% {
+    left: -100%; /* Start off the left side */
+  }
+  100% {
+    left: 50%; /* End at the center */
+    transform: translateX(-50%);
+  }
+}

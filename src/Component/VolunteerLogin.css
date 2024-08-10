@@ -1,0 +1,231 @@
+/* * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .vrlbody {
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/originals/a5/cc/8a/a5cc8a24b1e3eee2529bca30b5aec261.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(19, 6, 63);
+  }
+  
+  .vrlinfo h1 {
+    color: white;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .vrlinfo h4 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .vrlinfo h2 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .vrlbg_img {
+    background-image: url("https://i0.wp.com/vegofwa.org/wp-content/uploads/2019/11/hungry-child.jpg?resize=860%2C574&ssl=1");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+  }
+  
+  .vrlcontainer {
+    height: 450px;
+    width: 750px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background: linear-gradient(to left, rgb(77, 76, 76) 10%, rgba(0, 0, 0, 0.3));
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .vrlqot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .vrlqot p {
+    font-family: Poppins;
+    font-size: 50px;
+  }
+  
+  .vrlcontainer p {
+    color: rgb(228, 225, 225);
+  }
+  
+  .vrlcontainer form {
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .vrlcontainer form .vrlinput_box p {
+    color: rgb(252, 237, 237);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-top: 25px;
+  }
+  
+  .vrlcontainer form input {
+    height: 8px;
+    width: 300px;
+    padding: 25px;
+    border-radius: 5px;
+    border: 2px solid rgb(17, 17, 158);
+    font-weight: bold;
+  }
+  
+  .vrlcontainer form input:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px 1px rgba(143, 73, 234, 0.932);
+  }
+  
+  .vrlcontainer form .vrlbutton input {
+    height: 50px;
+    width: 322px;
+    padding: 10px;
+    background-color: rgb(28, 180, 165);
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px gray;
+  }
+  
+  .vrlcontainer form .vrlbutton input:hover {
+    background-color: rgb(68, 160, 151);
+  }
+  
+  #vrlreg_link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  #back {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    box-shadow: 1px 1px 3px rgb(196, 21, 21);
+    border-radius: 30px;
+    cursor: pointer;
+    position: absolute;
+    left: 30px;
+  }
+  
+  .vrlinfo h2 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+   */
+
+
+
+   .VolunteerLogin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin-top: -60px;
+}
+
+.VolunteerLogin-box {
+    display: flex;
+    width: 800px;
+    height: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.VolunteerLogin-left {
+    flex: 1;
+    padding: 40px;
+    background-color: #ffffff;
+}
+
+.VolunteerLogin-left h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.VolunteerLogin-left p {
+    margin: 10px 0 20px;
+    color: #777777;
+}
+
+.VolunteerLogin-input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.VolunteerLogin-remember-me {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.VolunteerLogin-remember-me input {
+    margin-right: 5px;
+}
+
+.VolunteerLogin-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #686868;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.VolunteerLogin-button:hover {
+    background-color: #292929;
+}
+
+.VolunteerLogin-right {
+    flex: 1;
+    background-color: #e3f2fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.VolunteerLogin-illustration img {
+    width: 100%;
+    height: 500px;
+}
+
+  

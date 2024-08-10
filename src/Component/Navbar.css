@@ -1,0 +1,128 @@
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: linear-gradient(90deg, rgb(225,225,225) 0%, rgb(225,225,225) 100%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-logo {
+  
+  font-weight: bold;
+  color: #333;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  transition: color 0.3s;
+  
+}
+.navbar-logo img{
+  max-width: 110px;
+  border-radius: 90px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  
+}
+.navbar-logo:hover{
+  color: #000000;
+}
+
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-links .navdropdown {
+  position: relative;
+  margin: 0 20px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #4b4b4b;
+  font-weight: 500;
+  transition: color 0.3s;
+  padding: 10px 15px;
+  display: block;
+  font-size: 20px;
+}
+
+.navbar-links a:hover {
+  color: #ffbd5a;
+}
+
+.navdropdown:hover .navdropdown-menu {
+  display: block;
+}
+
+.navdropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #eee7e7;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  z-index: 1000;
+  min-width: 200px;
+  
+}
+
+.navdropdown-menu a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+  padding: 10px 20px;
+  display: block;
+ 
+}
+
+.navdropdown-menu a:hover {
+  color: #0a0a0a;
+  background-color: #f6f6f6;
+  border-radius: 8px;
+}
+
+.navbar-buttons {
+  display: flex;
+}
+
+.navdonate-button,
+.navlogin-button {
+  margin-left: 10px;
+  margin-right: 20px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.navdonate-button {
+  background-color: #d9575b;
+  color: #fff;
+}
+
+.navdonate-button:hover {
+  background-color: #ff4349;
+  box-shadow: 0 2px 4px rgba(255, 90, 95, 0.3);
+}
+
+.navlogin-button {
+  background-color: #d9575b;
+  color: #fff;
+}
+
+.navlogin-button:hover {
+  background-color: #ff4349;
+  box-shadow: 0 2px 4px rgba(0, 123, 255, 0.3);
+} 
+

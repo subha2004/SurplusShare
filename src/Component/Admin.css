@@ -1,0 +1,98 @@
+
+.aOrgLogin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin-top: -60px;
+  }
+  
+  .aOrgLogin-box {
+    display: flex;
+    width: 800px;
+    height: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .aOrgLogin-left {
+    flex: 1;
+    padding: 40px;
+    background-color: #ffffff;
+  }
+  
+  .aOrgLogin-left h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+  }
+  
+  .aOrgLogin-left p {
+    margin: 10px 0 20px;
+    color: #777777;
+  }
+  
+  .aOrgLogin-input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+  }
+  
+  .aOrgLogin-remember-me {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .aOrgLogin-remember-me input {
+    margin-right: 5px;
+  }
+  
+  .aOrgLogin-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #686868;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .aOrgLogin-button:hover {
+    background-color: #292929;
+  }
+  
+  .aOrgLogin-right {
+    flex: 1;
+    background-color: #e3f2fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .aOrgLogin-illustration img {
+    width: 100%;
+    height: 500px;
+  }
+  
+  .aOrgLogin-button{
+    text-align: center;
+  }
+  
+
+  .aOrgLogin-error {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  
+  
+  

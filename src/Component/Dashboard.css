@@ -1,0 +1,67 @@
+
+.dacon2 {
+  
+    height: 100vh;
+    background-size: cover;
+    background-color: #f4f4f4;
+  }
+  
+  .dabg_col {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  h2 {
+    font-weight: bold;
+  }
+  
+  .dafood {
+    text-indent: 10%;
+    width: 26%;
+    height: 60%;
+    background-color: #eaeaea;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .dafoodhead {
+    text-indent: 0px;
+  }
+  
+  
+  .dabt {
+    padding: 0px 20px 0px 0px;
+    display: flex;
+    justify-content: end;
+  }
+  
+  .dabtb {
+    width: 130px;
+    height: 60px;
+    background-color: rgb(8, 10, 8);
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+    border: none;
+    color: white;
+  }
+  
+  .dabtb:hover {
+    background-color: rgba(70, 63, 63, 0.25);
+    color: rgb(14, 15, 14);
+    font-weight: bold;
+    transition: 0.3s;
+    border: 2px solid rgb(24, 26, 24);
+  }
+  
+  p {
+    text-align: justify;
+  }
+  

@@ -1,0 +1,90 @@
+
+.OrgLogin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  margin-top: -60px;
+}
+
+.OrgLogin-box {
+  display: flex;
+  width: 800px;
+  height: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.OrgLogin-left {
+  flex: 1;
+  padding: 40px;
+  background-color: #ffffff;
+}
+
+.OrgLogin-left h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.OrgLogin-left p {
+  margin: 10px 0 20px;
+  color: #777777;
+}
+
+.OrgLogin-input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.OrgLogin-remember-me {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.OrgLogin-remember-me input {
+  margin-right: 5px;
+}
+
+.OrgLogin-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #686868;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.OrgLogin-button:hover {
+  background-color: #292929;
+}
+
+.OrgLogin-right {
+  flex: 1;
+  background-color: #e3f2fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.OrgLogin-illustration img {
+  width: 100%;
+  height: 500px;
+}
+
+.OrgLogin-button{
+  text-align: center;
+}
+
+
+

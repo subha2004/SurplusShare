@@ -1,0 +1,95 @@
+.deliverybody {
+    background-color: #f4f4f4;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+  }
+  
+  .delivery-process {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 70px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 2.8em;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .delivery-steps {
+    padding: 20px;
+  }
+  
+  .delivery-steps h2 {
+    font-size: 2.2em;
+    color: #010101;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #000000;
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+  
+  .step {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    opacity: 0; /* Initial state for animation */
+    transform: translateX(-50px); /* Initial slide position */
+    transition: all 0.6s ease-out; /* Smooth transition */
+    animation: slide-in 0.6s forwards; /* Trigger animation */
+    animation-delay: calc(var(--i) * 0.3s); /* Delay each step */
+  }
+  
+  @keyframes slide-in {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .step-image {
+    width: 220px;
+    height: 160px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .step-image:hover {
+    transform: scale(1.2);
+  }
+  
+  .step-content {
+    flex: 1;
+  }
+  
+  .step-content h3 {
+    font-size: 1.8em;
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  
+  .step-content p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+  }
+  
